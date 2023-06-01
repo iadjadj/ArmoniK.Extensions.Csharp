@@ -9,6 +9,14 @@
       "groupName": "Dépendances Armonik"
     },
     {
+      "groupName": "armonik-packages",
+      "packagePatterns": ["**/armonik/**"]
+    },
+    {
+      "groupName": "other-packages",
+      "excludePackagePatterns": ["**/armonik/**"]
+    },
+    {
       "matchDatasources": ["nuget"],
       "groupName": "Dépendances NuGet"
     },
