@@ -1,7 +1,6 @@
 {
   "extends": ["config:base"],
   "forkProcessing": "enabled",
-  "schedule": ["every weekday"],
   "assignees": ["iadjadj"],
   "packageRules": [
     {
