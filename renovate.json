@@ -13,7 +13,7 @@
       "groupName": "Dépendances NuGet"
     },
     {
-      "matchPackagePatterns": ["action-git.*"],
+      "matchPackagePatterns": ["action.*"],
       "groupName": "Dépendances Action-Git"
     },
     {
