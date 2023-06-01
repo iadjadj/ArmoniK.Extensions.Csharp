@@ -5,7 +5,7 @@
   "assignees": ["iadjadj"],
   "packageRules": [
     {
-      "matchPackagePrefixes": ["ArmoniK"],
+      "matchPackagePatterns": ["ArmoniK"],
       "groupName": "Dépendances Armonik"
     },
     {
