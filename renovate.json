@@ -13,15 +13,15 @@
       "groupName": "Dépendances armonik"
     },
     {
-      "matchPackageTypes": ["nuget"],
+      "matchPackagePatterns": ["*.nupkg"],
       "groupName": "Dépendances NuGet"
     },
     {
-      "matchPackageTypes": ["action-git"],
+      "matchPackagePatterns": ["action-git*"],
       "groupName": "Dépendances Action-Git"
     },
     {
-      "matchPackageTypes": ["*"],
+      "matchPackagePatterns": ["*"],
       "groupName": "Dépendances Autres"
     }
   ]
