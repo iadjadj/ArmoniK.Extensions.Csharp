@@ -5,15 +5,15 @@
   "assignees": ["iadjadj"],
   "packageRules": [
     {
-      "matchPackagePatterns": ["ArmoniK"],
-      "groupName": "Dépendances armonik"
+      "matchPackagePatterns": ["*ArmoniK*"],
+      "groupName": "Dépendances Armonik"
     },
     {
-      "matchPackageTypes": ["nuget"],
+      "matchPackagePatterns": ["*.nupkg"],
       "groupName": "Dépendances NuGet"
     },
     {
-      "matchPackageTypes": ["action-git"],
+      "matchPackagePatterns": ["action-git*"],
       "groupName": "Dépendances Action-Git"
     },
     {
@@ -21,5 +21,5 @@
       "groupName": "Dépendances Autres"
     }
   ]
-} 
+}
  
