@@ -5,11 +5,11 @@
   "assignees": ["iadjadj"],
   "packageRules": [
     {
-      "matchPackagePatterns": ["^ArmoniK"],
+      "matchPackagePatterns": ["ArmoniK.+"],
       "groupName": "Dépendances Armonik"
     },
     {
-      "matchPackagePatterns": [".*\\.nupkg"],
+      "matchPackagePatterns": [".+\.nupkg"],
       "groupName": "Dépendances NuGet"
     },
     {
