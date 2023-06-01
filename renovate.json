@@ -17,7 +17,7 @@
       "groupName": "Dépendances Action-Git"
     },
     {
-     "matchPackagePatterns":["*"],
+     "matchPackagePatterns": ["*"],
      "groupeName": "Dépendances kkkk"
     }
   ]
