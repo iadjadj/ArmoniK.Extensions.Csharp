@@ -15,11 +15,6 @@
     {
       "matchPackagePatterns": ["action/*"],
       "groupName": "Dépendances Action-Git"
-    },
-    {
-      "matchPackagePatterns": ["*"],
-      "groupName": "Dépendances Autres"
     }
-    
   ]
 }
