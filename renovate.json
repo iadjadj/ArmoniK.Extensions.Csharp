@@ -1,0 +1,29 @@
+{
+  "extends": ["config:base"],
+  "forkProcessing": "enabled",
+    "schedule": [
+      "every weekday"
+    ],
+    "assignees": [
+      "iadjadj"
+    ],
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["ArmoniK"],
+      "groupName": "Dépendances armonik"
+    },
+    {
+      "matchPackageTypes": ["nuget"],
+      "groupName": "Dépendances NuGet"
+    },
+    {
+      "matchPackageTypes": ["action-git"],
+      "groupName": "Dépendances Action-Git"
+    },
+    {
+      "matchPackageTypes": ["*"],
+      "groupName": "Dépendances Autres"
+    }
+  ]
+ }   
+ 
