@@ -20,5 +20,6 @@
       "matchPackagePatterns": ["*"],
       "groupName": "Dépendances Autres"
     }
+    
   ]
 }
