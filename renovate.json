@@ -27,6 +27,10 @@
     {
      "matchPackagePatterns": ["*"],
      "groupName": "Dépendances kkkk"
+    },
+    {
+      "groupName": "other-packages",
+      "excludePackagePatterns": ["^.*armonik.*"]
     }
   ]
 }
