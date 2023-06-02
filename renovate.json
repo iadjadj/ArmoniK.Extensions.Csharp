@@ -10,8 +10,8 @@
     },
     {
     
-    "matchPackagePrefix": ["*"],
-    "excludePackagePrefix": ["^ArmoniK"],
+    "matchPackagePrefixes": ["*"],
+    "excludePackagePrefixes": ["^ArmoniK"],
     "groupName": "dependencies update!!!"  
     }
   ]
