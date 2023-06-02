@@ -7,30 +7,6 @@
     {
       "matchPackagePrefixes": ["ArmoniK"],
       "groupName": "Dépendances Armonik"
-    },
-    {
-      "groupName": "armonik-packages",
-      "packagePatterns": ["^.*ArmoniK.*"]
-    },
-    {
-      "groupName": "other-packages",
-      "excludePackagePatterns": ["^.*armonik.*"]
-    },
-    {
-      "matchDatasources": ["nuget"],
-      "groupName": "Dépendances NuGet"
-    },
-    {
-      "matchPackagePatterns": ["*"],
-      "groupName": "Dépendances Action-Git"
-    },
-    {
-     "matchPackagePatterns": ["*"],
-     "groupName": "Dépendances kkkk"
-    },
-    {
-      "groupName": "other-packages",
-      "excludePackagePatterns": ["^.*armonik.*"]
     }
   ]
 }
