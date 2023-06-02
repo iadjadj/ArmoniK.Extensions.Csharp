@@ -1,20 +1,26 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base", 
-    ":semanticCommitTypeAll(chore)"],
-  "forkProcessing": "enabled",
-  "schedule": ["every weekday"],
-  "assignees": ["iadjadj"],
+  "extends": [
+    "config:base",
+    "group:allNonMajor",
+    ":semanticCommitTypeAll(chore)"
+  ],
+  "rangeStrategy": "bump",
+  "npm": {
+    "commitMessageTopic": "{{prettyDepType}} {{depName}}"
+  },
   "packageRules": [
     {
-      "matchPackagePrefixes": ["ArmoniK"],
-      "groupName": "release packages Armonik"
+      "matchPackageNames": [
+        "^ArmoniK.*"
+      ],
+      "groupName": "ArmoniK"
     },
     {
-    
-    "matchPackagePatterns": ["*"],
-    "excludePackagePrefixes": ["ArmoniK"],
-    "groupName": "dependencies update!!!"  
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "groupName": "{{manager}}"
     }
   ]
 }
