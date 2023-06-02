@@ -6,7 +6,13 @@
   "packageRules": [
     {
       "matchPackagePrefixes": ["ArmoniK"],
-      "groupName": "Dépendances Armonik"
+      "groupName": "release packages Armonik"
+    },
+    {
+    
+    "matchPackagePrefix": ["*"],
+    "excludePackagePrefix": ["^ArmoniK"],
+    "groupName": "dependencies update!!!"  
     }
   ]
 }
