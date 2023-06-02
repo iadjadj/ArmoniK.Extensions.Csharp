@@ -11,7 +11,7 @@
     {
     
     "matchPackagePrefixes": ["*"],
-    "excludePackagePrefixes": ["^ArmoniK"],
+    "excludePackagePrefixes": ["ArmoniK"],
     "groupName": "dependencies update!!!"  
     }
   ]
