@@ -10,7 +10,7 @@
     },
     {
     
-    "matchPackagePrefixes": ["*"],
+    "matchPackagePatterns": ["*"],
     "excludePackagePrefixes": ["ArmoniK"],
     "groupName": "dependencies update!!!"  
     }
