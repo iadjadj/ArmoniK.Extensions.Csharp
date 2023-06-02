@@ -10,11 +10,11 @@
     },
     {
       "groupName": "armonik-packages",
-      "packagePatterns": ["**/armonik/**"]
+      "packagePatterns": ["^.*ArmoniK.*"]
     },
     {
       "groupName": "other-packages",
-      "excludePackagePatterns": ["**/armonik/**"]
+      "excludePackagePatterns": ["^.*armonik.*"]
     },
     {
       "matchDatasources": ["nuget"],
